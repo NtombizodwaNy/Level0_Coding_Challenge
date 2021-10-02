@@ -1,11 +1,8 @@
-user_str_1 = input("Input String 1: ")
+string1 = 'boomerang'
+string2 = 'wonderboom'
 
-user_str_2 = input("Input String 2: ")
+s1 = set(string1)
+s2 = set(string2)
+common_letters = s1 & s2
 
-s1 = set(user_str_1)
-
-s2 = set(user_str_2)
-
-lst  = list(s1 & s2)
-
-print(" Common letters: {}" .format(lst))
+print( s1 & s2 )

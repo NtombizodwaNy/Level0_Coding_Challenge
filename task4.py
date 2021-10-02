@@ -1,5 +1,7 @@
-m = int(input("Enter number"))
-if m % 2 == 0:
- print(m,"is an even number")
-else:
- print(m,"is an odd number")
+def evenOrodd():
+    num = 48
+    if (num%2==0):
+       print("Even")
+    else:
+       print("Odd")
+evenOrodd()
