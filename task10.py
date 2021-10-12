@@ -1,8 +1,22 @@
-string1 = 'boomerang'
-string2 = 'wonderboom'
+def print_Common(word_i, word_ii):
+    common = "Common letters: "
 
-s1 = set(string1)
-s2 = set(string2)
-common_letters = s1 & s2
+    temp_string_i = word_i.lower()  
 
-print( s1 & s2 )
+    temp_string_ii = word_ii.lower()
+
+    for i in temp_string_ii:  
+
+        if(temp_string_i.count(i) > 0):
+
+            if(i != " "):
+
+                common+=i+", "
+
+    common= common[:-2]
+
+    return common
+
+
+
+print(print_Common("Heart","Heat"))

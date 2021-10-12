@@ -1,4 +1,12 @@
-def vowel(text):
-    vowels = "aeiuoAEIOU"
-    print([letter for letter in text if letter in vowels])
-vowel("Wonderland")
+def printVowels(word):
+    vowels = "Vowels: "
+    temp_string = word.lower()
+    for i in "aeiou":
+       if(temp_string.count(i) > 0):
+           vowels+=i+", "
+
+    vowels= vowels[:-2]
+    
+    return vowels
+
+print(printVowels("BoOmeRang"))
