@@ -1,3 +1,3 @@
-def Hello():
-    print("Hello Tshepo!")
-Hello()
+def Hello(str):
+    print("Hello" + str +"!")
+Hello("Tshepo")

@@ -1,7 +1,13 @@
-def max( e, f ):
-    if e > f:
-       return e
-    return f
-def maxx( e, f, j ):
-    return max( e, max( f, j ) )
-print("max number is ",maxx(6, 9, 99))
+def maximum_num(*numbers):
+
+    biggest = numbers[0]
+
+    for num in numbers:
+
+        if num > biggest:
+
+            biggest = num
+
+    return biggest
+
+print(maximum_num(10, 1, 105))

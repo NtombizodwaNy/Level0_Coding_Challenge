@@ -1,8 +1,12 @@
-def triangle():
-    e = 21
-    f = 22
-    g = 23
-    s = (e + f + g) / 2
-    area = (s*(s-e)*(s-f)*(s-g)) ** 0.5
-    print("Area is %0.2f" %area)
-triangle()
+def area_of_triangle(a, b, c):
+
+    s = (a + b + c) / 2
+
+    area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+
+    return area
+
+
+
+
+print(area_of_triangle(8, 9, 10))
