@@ -1,7 +1,7 @@
-def evenOrodd():
-    num = 48
-    if (num%2==0):
-       print("Even")
-    else:
-       print("Odd")
-evenOrodd()
+def even_or_odd(int):
+   if(int % 2 != 0):
+      print("odd")
+   else:
+      print("even")
+
+even_or_odd(22)
