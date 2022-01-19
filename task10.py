@@ -1,5 +1,5 @@
-def print_Common(word_i, word_ii):
-    common = "Common letters: "
+def output_common(word_i, word_ii):
+    common = "common letters: "
 
     temp_string_i = word_i.lower()  
 
@@ -19,4 +19,4 @@ def print_Common(word_i, word_ii):
 
 
 
-print(print_Common("Heart","Heat"))
+print(output_common("Heart","Heat"))
