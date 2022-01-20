@@ -1,4 +1,4 @@
-def output_Vowels(word):
+def output_vowels(word):
     vowels = "Vowels: "
     temp_string = word.lower()
     for i in "aeiou":
@@ -9,4 +9,4 @@ def output_Vowels(word):
     
     return vowels
 
-print(output_Vowels("BoOmeRang"))
+print(output_vowels("BoOmeRang"))
